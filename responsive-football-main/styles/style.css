@@ -1,0 +1,68 @@
+
+/* top-banner */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+   
+    margin: 0;
+    
+}
+ .top-banner{
+     display: flex;
+     background-color: rgb(110, 132, 231);
+     
+     
+     
+ }
+ .half-width{
+     width: 50%;
+
+     
+    
+ }
+ 
+.banner-imges{
+    width: 50%;
+}
+ .banner-imges img{
+     width: 80%;
+     padding-top: 135px;
+     padding-right: 50px;
+     transition: width 2s, transform 2s ;
+     
+ }
+ .banner-imges img:hover{
+     width: 600px;
+     transform: rotate(360deg);
+     
+     
+     
+ }
+ #america{
+     font-size: 65px;
+     height: 230px;
+     width: 485px;
+     /* padding: 20% 15% 10%; */
+     color: white;
+     margin: 250px 50px 80px 200px;
+     
+     
+    
+ }
+ .half-width p{
+    background-color: #E02C6D;
+    width: 200px;
+    padding: 10px;
+    margin-left: 200px;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+ }
+ .half-width p span img{
+     display: block;
+     float: right;
+     padding-top: 0px;
+     text-align: center;
+ }
